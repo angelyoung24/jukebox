@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background: url("img/concert.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.center {
+    margin: auto;
+    width: 38%;
+    height: 38%;
+}
+.title {
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    border: 3px solid maroon;
+
+}
+
+#songtitle {
+    font-family: 'cedarville cursive';
+    text-align:center;
+    font-size: 2em;
+}
+
+
+#play {
+    width: 74px;
+    height: 74px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 37px 0px 37px 74px;
+    border-color: transparent transparent transparent violet;
+    float: left;
+    margin: 5%;
+}
+
+#pause {
+    height: 74px;
+    border-style: double;
+    border-width: 0px 0px 0px 37px;
+    border-color: crimson;
+    float: left;
+    margin: 5%;
+}
+
+#stop {
+    width: 74px;
+    height: 74px;
+    background-color: darkred;
+    float: left;
+    margin: 5%;
+}
+
+.arrow,
+.arrow2 {
+    width: 74px;
+    height: 74px;
+    box-sizing: border-box;
+    border-style: double;
+    border-width: 37px 37px;
+    border-color: transparent transparent transparent pink;
+    float: left;
+    margin: 5%;
+}
+
+.arrow2 {
+    border-color: transparent transparent transparent magenta;
+    margin-left: -55px;
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+    .center {
+    margin-bottom: 30px;
+    width: 90%;
+    height: 90%;
+    padding: 50px;
+}
+}
+
+
+
+
+
